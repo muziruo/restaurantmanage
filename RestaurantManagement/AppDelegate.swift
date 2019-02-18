@@ -16,7 +16,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
         // Override point for customization after application launch.
+        //AVOSCloud.setApplicationId("C1sGEDN5RAmepXwlK3woo0L8-gzGzoHsz", clientKey: "3npUPuMpn6A3OwGnNYBSlCsj")
+        //LeanCloud.initialize(applicationID: "C1sGEDN5RAmepXwlK3woo0L8-gzGzoHsz", applicationKey: "3npUPuMpn6A3OwGnNYBSlCsj")
+        Bmob.register(withAppKey: "92aa33f4738945563e0d20089a2dd445")
+        
+        //在注册系统未完成之前用系统自带的文件保存将用户固定保存起来
+        let user = UserDefaults.standard
+        if user.string(forKey: "username") == nil{
+            user.set("user", forKey: "username")
+        }
+        
         return true
     }
 

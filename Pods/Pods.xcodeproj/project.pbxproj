@@ -1,0 +1,947 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0054224BA8A23E8413AE5452B7C7D9C4 /* HeroIndependentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265F8992DC833009D59DAA8760DCF305 /* HeroIndependentController.swift */; };
+		0059FD67AB46E42A7DF3807546ACADD2 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C25108D523F253AC2A079C57FF2E1F7 /* JiroTextField.swift */; };
+		00CF7D513DF064760BF24C6A88E3E855 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88690F01AD99D26B5D8F452BE8F45C /* Lexer.swift */; };
+		05F0808ED771EDC8628F839F16CB7EC8 /* HeroDefaultAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989E7EF92B0AC5A1320DC823F96746C1 /* HeroDefaultAnimator.swift */; };
+		0D369172D05A259E06744506EF9BA138 /* Pods-RestaurantManagement-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C130B61250CF8DB0FD7CC5180B633A31 /* Pods-RestaurantManagement-dummy.m */; };
+		0DA21E732596100C88761DA40C290796 /* Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7521D946BD25BEFB78E70BFF6BE759 /* Nodes.swift */; };
+		1187D0B54554AC77546084816FBF54D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		12583DFE303F96CFC99E6DF4FC386E5E /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58615E272CFEE63D0C00DB43D8E3739 /* IsaoTextField.swift */; };
+		17E0300A25C026BDF01E16FB8E9C04A8 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249C263F8EA36CA2A9E9637025F0F1DF /* HoshiTextField.swift */; };
+		1D030FD35221838E1BC264DBD51B3A93 /* HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969E7B5BC1FECDD4CAA356D1D51BE26C /* HeroStringConvertible.swift */; };
+		1EFCE8E2E39D6FF98A82A412DCDA22F4 /* CAMediaTimingFunction+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68229764437323B4F06327C91593FC5D /* CAMediaTimingFunction+Hero.swift */; };
+		2808DEA4E83D337D6A0F0D3EE9AFC8CB /* UIView+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB63C289BA1397826DFD0A82BDED3DD /* UIView+Hero.swift */; };
+		29E1C79CB521E7299EFF904E327451A8 /* IgnoreSubviewModifiersPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407CBCF5411E56FDB489C84730B1480E /* IgnoreSubviewModifiersPreprocessor.swift */; };
+		2F44F37D2F6170E3B3186555CF82F575 /* HeroDebugPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7D0A7C19B2211B2629466676642EE5 /* HeroDebugPlugin.swift */; };
+		30E0982814D1F0971FA52AAE141325B8 /* HeroBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99A88CA369415597D88CADF03F026D /* HeroBaseController.swift */; };
+		32A202718066F842A1A863541EBDA05B /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E8613F397B285B7E2265E626876A328 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		355839E3459355665718D6358BA078A6 /* HeroViewPropertyViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9124878681917BE2DFFD79568B6D2B2 /* HeroViewPropertyViewContext.swift */; };
+		3659E323A25B48F72C55E871D022D45C /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682416DB5428F9488FC130F686E45CED /* MinoruTextField.swift */; };
+		398917958AEE73A2ABA9DE141F4468CE /* DefaultAnimationPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F856E573C2DD99797268B34BBAF53A81 /* DefaultAnimationPreprocessor.swift */; };
+		4079B7B08D8981B768A9F3C7EAB1B043 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3748B79FB01BF4B25ED9E1F98A264BEF /* TextFieldEffects-dummy.m */; };
+		4871AB82D1BA4619362CECE2C157E239 /* Array+HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B2D53DEB54FC9F819E787D884A7295 /* Array+HeroModifier.swift */; };
+		6095DBFEB1AF8CE765FA645A05459C2B /* CascadePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35674DDECE8BC382F12319DC0601023A /* CascadePreprocessor.swift */; };
+		64B4D37F446B67C4A0D546ABF01ECDC6 /* DurationPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5A1AB6D13417C93B0304E7B729C683 /* DurationPreprocessor.swift */; };
+		67BCB163E387C2E9288BC15CA3E4ACAF /* UIKit+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFCD70A8D9CB8CD9262D1266900A565 /* UIKit+Hero.swift */; };
+		69C8F9CB4C695672395946F7C8A23E24 /* HeroPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC97B75984458FBAFCB304E244D7DD /* HeroPlugin.swift */; };
+		6B76015FB5A7E8450026BC11402C93E9 /* UIViewController+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9ABAAE4A45EFAEEC103BC2531AB5F2 /* UIViewController+Hero.swift */; };
+		6F977B467C1C4EBDE66733417643F1DD /* Hero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C63B5866B770388C94BE47AAAF3F11 /* Hero-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		731BDB378A5E0759C89BACA382B6412B /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569C124FD09883A2286208AB5A3C1FD /* Regex.swift */; };
+		7DDE6E306CAB5E388629F6C6A561ECBA /* MatchPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B249ABE1D7608CE59B310E4729923C2 /* MatchPreprocessor.swift */; };
+		84B25B1A071858745816A95418F9F77A /* HeroAnimatorViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9473482F09906E50FAAF01BCFF5F94B7 /* HeroAnimatorViewContext.swift */; };
+		9022B8C9907A24665A74A0E51D1F573E /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB46C262A421DEDC3D18A2B547DC935 /* YokoTextField.swift */; };
+		92D9D61944D413984C260AC53CFB299B /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8E392290F2674709FBED9ACB21A0B1 /* YoshikoTextField.swift */; };
+		A271792E9BD1BF7C0F7FC526D33C68C3 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A361CD75C540595454D7BF41E9C3210 /* Parser.swift */; };
+		A57C83E4371C1D6439BC82CDBEE32E08 /* DispatchQueue+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB5624B25EDC3ABC715B9E0FBC8348A /* DispatchQueue+Hero.swift */; };
+		A72A258B0E285A00B063B0AF42E488A5 /* HeroTargetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4900980C3294305DE78CB9387DE06D3A /* HeroTargetState.swift */; };
+		ABE0F6116DF5C33A310E215DE9AEE769 /* HeroContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CC04C206CDF39AC006D10A7CD2907F /* HeroContext.swift */; };
+		AC78190959872C81167ACC8F0B02BED9 /* Hero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE437804CBDF72CEEB260462170D74F /* Hero-dummy.m */; };
+		AD2C16D8CD7FDFD2B50A2D243631E8CD /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22D0F5DAF7DF7CABFBE5CF9D77939C0 /* AkiraTextField.swift */; };
+		AF04AD552E6BE94703E8EC8BEAEEA076 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		B62A16E73ADAFD9229C560E7C46ADB8E /* HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B619A4FAF4799AB73BCFB9E21609E9 /* HeroModifier.swift */; };
+		BB7E6CA50EF56EF89CECA4DE5FEF66B9 /* HeroCoreAnimationViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC285A7917D37C00E84EAF039063AE37 /* HeroCoreAnimationViewContext.swift */; };
+		BEB47A3CAB4F7D3C8EDA608599417596 /* HeroDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E97BA73B9CA7C360BFE967D591FDA /* HeroDebugView.swift */; };
+		C1D7C318F2418A5FE5F341B4806DE422 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		CCACA9026494E6D39D374A4BD303F69C /* CALayer+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78095DDC9BB723541D550C36E89EF4D7 /* CALayer+Hero.swift */; };
+		CE4501723EC8667ADB9698705CC0AA04 /* HeroTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9499A387F1D2856AE76B57FD3D7FC /* HeroTypes.swift */; };
+		D17230F239F2AA09718192F46E3B1B64 /* Pods-RestaurantManagement-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8FC5B84E552BE5415142DAE919EFCFB /* Pods-RestaurantManagement-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D48039A4AAAD63B84E8041F816AAE5CC /* BasePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DE955ECB7458581F1208743F5929D0 /* BasePreprocessor.swift */; };
+		DE4FD12FD11924E71640A08AF3AFA2E4 /* SourcePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842964C61F6DFA5818F1D5751D9D3591 /* SourcePreprocessor.swift */; };
+		DE7E529EF406ECBC3185D907151CDE78 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB24BDC7653C3AB02F9C90FB0C347EEB /* Hero.swift */; };
+		E005E53A4597314EC0BFA26CDA27BDDE /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA747089B54CD1E64E8A9DE79ED53402 /* KaedeTextField.swift */; };
+		E57BB5C5A234EE3344BB5AAECFC7CC7A /* HeroModifier+HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9911353F027AF38AD154A65E98302F8B /* HeroModifier+HeroStringConvertible.swift */; };
+		E91E80F3AA36C095A59C59A446271BF0 /* CG+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE664A8583F2B7425E843649E5BFFB50 /* CG+Hero.swift */; };
+		E96D0B2A18F932EA26F8E8C6A6CB83F1 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51F79A9C666607B151EBC3A74ACEAB4 /* TextFieldEffects.swift */; };
+		F8B93586E30E1500AB63AA4E13886D05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		FF0AC37423265BBC26BDEB1E077661DB /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9CC4BF2A487106FA0C16DE916F04EE /* MadokaTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		232C633D1276889ECA9978052733209D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A3E211676B243619B026D147D272253;
+			remoteInfo = Hero;
+		};
+		EC7AC7197048969ACE16AD3E466F5733 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD2714EE4B3A69DD5A3BF820E824AE0D;
+			remoteInfo = TextFieldEffects;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B9499A387F1D2856AE76B57FD3D7FC /* HeroTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTypes.swift; path = Sources/HeroTypes.swift; sourceTree = "<group>"; };
+		1AB63C289BA1397826DFD0A82BDED3DD /* UIView+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Hero.swift"; path = "Sources/Extensions/UIView+Hero.swift"; sourceTree = "<group>"; };
+		22CC04C206CDF39AC006D10A7CD2907F /* HeroContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroContext.swift; path = Sources/HeroContext.swift; sourceTree = "<group>"; };
+		249C263F8EA36CA2A9E9637025F0F1DF /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		265F8992DC833009D59DAA8760DCF305 /* HeroIndependentController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroIndependentController.swift; path = Sources/HeroIndependentController.swift; sourceTree = "<group>"; };
+		27DE955ECB7458581F1208743F5929D0 /* BasePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasePreprocessor.swift; path = Sources/Preprocessors/BasePreprocessor.swift; sourceTree = "<group>"; };
+		2D4D4D7554A1C0E57916A41654CE4C39 /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		31BD96C522636DD4D49B02CAC045E24A /* Pods-RestaurantManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RestaurantManagement.release.xcconfig"; sourceTree = "<group>"; };
+		3389DDD51DE9C791259DAB2A6BF39E08 /* Pods-RestaurantManagement-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RestaurantManagement-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35674DDECE8BC382F12319DC0601023A /* CascadePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CascadePreprocessor.swift; path = Sources/Preprocessors/CascadePreprocessor.swift; sourceTree = "<group>"; };
+		3748B79FB01BF4B25ED9E1F98A264BEF /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		3E8613F397B285B7E2265E626876A328 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		3E99A88CA369415597D88CADF03F026D /* HeroBaseController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroBaseController.swift; path = Sources/HeroBaseController.swift; sourceTree = "<group>"; };
+		407CBCF5411E56FDB489C84730B1480E /* IgnoreSubviewModifiersPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IgnoreSubviewModifiersPreprocessor.swift; path = Sources/Preprocessors/IgnoreSubviewModifiersPreprocessor.swift; sourceTree = "<group>"; };
+		44DD0A7A6E24D702188DEFFA455F2A5D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		476904117845F23ADA23ED6765E6580B /* Hero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hero.framework; path = Hero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4900980C3294305DE78CB9387DE06D3A /* HeroTargetState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTargetState.swift; path = Sources/HeroTargetState.swift; sourceTree = "<group>"; };
+		4B249ABE1D7608CE59B310E4729923C2 /* MatchPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchPreprocessor.swift; path = Sources/Preprocessors/MatchPreprocessor.swift; sourceTree = "<group>"; };
+		4CC541198690E3451F13CF435D49C408 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CE437804CBDF72CEEB260462170D74F /* Hero-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hero-dummy.m"; sourceTree = "<group>"; };
+		52BF5196F3BC9FB00716155B2635DB52 /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		53AECD89A30E477AE328F9A9F0B473F8 /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
+		53B2D53DEB54FC9F819E787D884A7295 /* Array+HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+HeroModifier.swift"; path = "Sources/Extensions/Array+HeroModifier.swift"; sourceTree = "<group>"; };
+		5C88690F01AD99D26B5D8F452BE8F45C /* Lexer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lexer.swift; path = Sources/Parser/Lexer.swift; sourceTree = "<group>"; };
+		66C8A3B6D93D1D7FAC03E980D55A32C0 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.7.9/WechatAuthSDK.h; sourceTree = "<group>"; };
+		68229764437323B4F06327C91593FC5D /* CAMediaTimingFunction+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAMediaTimingFunction+Hero.swift"; path = "Sources/Extensions/CAMediaTimingFunction+Hero.swift"; sourceTree = "<group>"; };
+		682416DB5428F9488FC130F686E45CED /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		6A361CD75C540595454D7BF41E9C3210 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser/Parser.swift; sourceTree = "<group>"; };
+		6AB46C262A421DEDC3D18A2B547DC935 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		6E21A78F055DA634FAE86613EE4F65AB /* Pods-RestaurantManagement-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RestaurantManagement-acknowledgements.plist"; sourceTree = "<group>"; };
+		6E756294DF34D2AD2B06250C626EABE2 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.7.9/libWeChatSDK.a; sourceTree = "<group>"; };
+		70ED8D9F741F1561ABC9298FFC65968E /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		726151EEAD2273495AF9527C21DB747A /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.7.9/WXApiObject.h; sourceTree = "<group>"; };
+		7577629A9A0F4759329D9340226F0AAA /* Pods-RestaurantManagement-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RestaurantManagement-resources.sh"; sourceTree = "<group>"; };
+		78095DDC9BB723541D550C36E89EF4D7 /* CALayer+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Hero.swift"; path = "Sources/Extensions/CALayer+Hero.swift"; sourceTree = "<group>"; };
+		7B8E392290F2674709FBED9ACB21A0B1 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		7C9ABAAE4A45EFAEEC103BC2531AB5F2 /* UIViewController+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Hero.swift"; path = "Sources/Extensions/UIViewController+Hero.swift"; sourceTree = "<group>"; };
+		8174682C4F3D66195168E9B9AB143453 /* Hero-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-prefix.pch"; sourceTree = "<group>"; };
+		83BC97B75984458FBAFCB304E244D7DD /* HeroPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroPlugin.swift; path = Sources/HeroPlugin.swift; sourceTree = "<group>"; };
+		842964C61F6DFA5818F1D5751D9D3591 /* SourcePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourcePreprocessor.swift; path = Sources/Preprocessors/SourcePreprocessor.swift; sourceTree = "<group>"; };
+		87EE5BFC3D85D768BDEEA115FAFA21FA /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.7.9/WXApi.h; sourceTree = "<group>"; };
+		8C25108D523F253AC2A079C57FF2E1F7 /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		8F5A1AB6D13417C93B0304E7B729C683 /* DurationPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DurationPreprocessor.swift; path = Sources/Preprocessors/DurationPreprocessor.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9473482F09906E50FAAF01BCFF5F94B7 /* HeroAnimatorViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroAnimatorViewContext.swift; path = Sources/Animator/HeroAnimatorViewContext.swift; sourceTree = "<group>"; };
+		9474B0E69EF9749D925690EE87AF81D0 /* Pods-RestaurantManagement-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RestaurantManagement-frameworks.sh"; sourceTree = "<group>"; };
+		969E7B5BC1FECDD4CAA356D1D51BE26C /* HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroStringConvertible.swift; path = Sources/HeroStringConvertible.swift; sourceTree = "<group>"; };
+		989E7EF92B0AC5A1320DC823F96746C1 /* HeroDefaultAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDefaultAnimator.swift; path = Sources/Animator/HeroDefaultAnimator.swift; sourceTree = "<group>"; };
+		9911353F027AF38AD154A65E98302F8B /* HeroModifier+HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroModifier+HeroStringConvertible.swift"; path = "Sources/HeroModifier+HeroStringConvertible.swift"; sourceTree = "<group>"; };
+		9D7521D946BD25BEFB78E70BFF6BE759 /* Nodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Nodes.swift; path = Sources/Parser/Nodes.swift; sourceTree = "<group>"; };
+		A2C63B5866B770388C94BE47AAAF3F11 /* Hero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-umbrella.h"; sourceTree = "<group>"; };
+		A4B74BD23058177A29602FB869FF6805 /* Pods_RestaurantManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RestaurantManagement.framework; path = "Pods-RestaurantManagement.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA747089B54CD1E64E8A9DE79ED53402 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		AB24BDC7653C3AB02F9C90FB0C347EEB /* Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hero.swift; path = Sources/Hero.swift; sourceTree = "<group>"; };
+		AC285A7917D37C00E84EAF039063AE37 /* HeroCoreAnimationViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCoreAnimationViewContext.swift; path = Sources/Animator/HeroCoreAnimationViewContext.swift; sourceTree = "<group>"; };
+		B35FF436A321C237085FE2C8BF146261 /* Hero.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hero.xcconfig; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C130B61250CF8DB0FD7CC5180B633A31 /* Pods-RestaurantManagement-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RestaurantManagement-dummy.m"; sourceTree = "<group>"; };
+		C3B619A4FAF4799AB73BCFB9E21609E9 /* HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroModifier.swift; path = Sources/HeroModifier.swift; sourceTree = "<group>"; };
+		CA758354522EAF4F33CB1281F20605C3 /* Pods-RestaurantManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RestaurantManagement.debug.xcconfig"; sourceTree = "<group>"; };
+		CC7D0A7C19B2211B2629466676642EE5 /* HeroDebugPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugPlugin.swift; path = "Sources/Debug Plugin/HeroDebugPlugin.swift"; sourceTree = "<group>"; };
+		CCB5624B25EDC3ABC715B9E0FBC8348A /* DispatchQueue+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Hero.swift"; path = "Sources/Extensions/DispatchQueue+Hero.swift"; sourceTree = "<group>"; };
+		D51F79A9C666607B151EBC3A74ACEAB4 /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
+		D58615E272CFEE63D0C00DB43D8E3739 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		D5CD878E71185A3214ADBB6086082698 /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobSDK.framework; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D8FC5B84E552BE5415142DAE919EFCFB /* Pods-RestaurantManagement-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RestaurantManagement-umbrella.h"; sourceTree = "<group>"; };
+		D9124878681917BE2DFFD79568B6D2B2 /* HeroViewPropertyViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewPropertyViewContext.swift; path = Sources/Animator/HeroViewPropertyViewContext.swift; sourceTree = "<group>"; };
+		DDCCEDAEDC3B33CF4E52DC1AB0FEB0AD /* Hero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Hero.modulemap; sourceTree = "<group>"; };
+		DE664A8583F2B7425E843649E5BFFB50 /* CG+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CG+Hero.swift"; path = "Sources/Extensions/CG+Hero.swift"; sourceTree = "<group>"; };
+		E22D0F5DAF7DF7CABFBE5CF9D77939C0 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		E569C124FD09883A2286208AB5A3C1FD /* Regex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Regex.swift; path = Sources/Parser/Regex.swift; sourceTree = "<group>"; };
+		E76A033F912DF127093E17443ED9766C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF00D2BB1892F676734CDC329F71E8EC /* Pods-RestaurantManagement.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RestaurantManagement.modulemap"; sourceTree = "<group>"; };
+		EFFCD70A8D9CB8CD9262D1266900A565 /* UIKit+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Hero.swift"; path = "Sources/Extensions/UIKit+Hero.swift"; sourceTree = "<group>"; };
+		F856E573C2DD99797268B34BBAF53A81 /* DefaultAnimationPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultAnimationPreprocessor.swift; path = Sources/DefaultAnimationPreprocessor.swift; sourceTree = "<group>"; };
+		FA9CC4BF2A487106FA0C16DE916F04EE /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		FC5E97BA73B9CA7C360BFE967D591FDA /* HeroDebugView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugView.swift; path = "Sources/Debug Plugin/HeroDebugView.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21E6C68BEB179EF063E58DBBD27207D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF04AD552E6BE94703E8EC8BEAEEA076 /* Foundation.framework in Frameworks */,
+				C1D7C318F2418A5FE5F341B4806DE422 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55241DDF965ED091C83B785D897035BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1187D0B54554AC77546084816FBF54D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA42897B331AB5975F1C96269851D8A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B93586E30E1500AB63AA4E13886D05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02DEE366420073C5391BF4CC90584CC5 /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+				53B2D53DEB54FC9F819E787D884A7295 /* Array+HeroModifier.swift */,
+				27DE955ECB7458581F1208743F5929D0 /* BasePreprocessor.swift */,
+				78095DDC9BB723541D550C36E89EF4D7 /* CALayer+Hero.swift */,
+				68229764437323B4F06327C91593FC5D /* CAMediaTimingFunction+Hero.swift */,
+				35674DDECE8BC382F12319DC0601023A /* CascadePreprocessor.swift */,
+				DE664A8583F2B7425E843649E5BFFB50 /* CG+Hero.swift */,
+				F856E573C2DD99797268B34BBAF53A81 /* DefaultAnimationPreprocessor.swift */,
+				CCB5624B25EDC3ABC715B9E0FBC8348A /* DispatchQueue+Hero.swift */,
+				8F5A1AB6D13417C93B0304E7B729C683 /* DurationPreprocessor.swift */,
+				AB24BDC7653C3AB02F9C90FB0C347EEB /* Hero.swift */,
+				9473482F09906E50FAAF01BCFF5F94B7 /* HeroAnimatorViewContext.swift */,
+				3E99A88CA369415597D88CADF03F026D /* HeroBaseController.swift */,
+				22CC04C206CDF39AC006D10A7CD2907F /* HeroContext.swift */,
+				AC285A7917D37C00E84EAF039063AE37 /* HeroCoreAnimationViewContext.swift */,
+				CC7D0A7C19B2211B2629466676642EE5 /* HeroDebugPlugin.swift */,
+				FC5E97BA73B9CA7C360BFE967D591FDA /* HeroDebugView.swift */,
+				989E7EF92B0AC5A1320DC823F96746C1 /* HeroDefaultAnimator.swift */,
+				265F8992DC833009D59DAA8760DCF305 /* HeroIndependentController.swift */,
+				C3B619A4FAF4799AB73BCFB9E21609E9 /* HeroModifier.swift */,
+				9911353F027AF38AD154A65E98302F8B /* HeroModifier+HeroStringConvertible.swift */,
+				83BC97B75984458FBAFCB304E244D7DD /* HeroPlugin.swift */,
+				969E7B5BC1FECDD4CAA356D1D51BE26C /* HeroStringConvertible.swift */,
+				4900980C3294305DE78CB9387DE06D3A /* HeroTargetState.swift */,
+				01B9499A387F1D2856AE76B57FD3D7FC /* HeroTypes.swift */,
+				D9124878681917BE2DFFD79568B6D2B2 /* HeroViewPropertyViewContext.swift */,
+				407CBCF5411E56FDB489C84730B1480E /* IgnoreSubviewModifiersPreprocessor.swift */,
+				5C88690F01AD99D26B5D8F452BE8F45C /* Lexer.swift */,
+				4B249ABE1D7608CE59B310E4729923C2 /* MatchPreprocessor.swift */,
+				9D7521D946BD25BEFB78E70BFF6BE759 /* Nodes.swift */,
+				6A361CD75C540595454D7BF41E9C3210 /* Parser.swift */,
+				E569C124FD09883A2286208AB5A3C1FD /* Regex.swift */,
+				842964C61F6DFA5818F1D5751D9D3591 /* SourcePreprocessor.swift */,
+				EFFCD70A8D9CB8CD9262D1266900A565 /* UIKit+Hero.swift */,
+				1AB63C289BA1397826DFD0A82BDED3DD /* UIView+Hero.swift */,
+				7C9ABAAE4A45EFAEEC103BC2531AB5F2 /* UIViewController+Hero.swift */,
+				FB10A5FD77D46407CB83685DE88EB96B /* Support Files */,
+			);
+			name = Hero;
+			path = Hero;
+			sourceTree = "<group>";
+		};
+		1278B7A431BA545055F84111E63317BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				476904117845F23ADA23ED6765E6580B /* Hero.framework */,
+				A4B74BD23058177A29602FB869FF6805 /* Pods_RestaurantManagement.framework */,
+				70ED8D9F741F1561ABC9298FFC65968E /* TextFieldEffects.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B43B3DE58D12470711D3A69091FC286 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E76A033F912DF127093E17443ED9766C /* Info.plist */,
+				52BF5196F3BC9FB00716155B2635DB52 /* TextFieldEffects.modulemap */,
+				53AECD89A30E477AE328F9A9F0B473F8 /* TextFieldEffects.xcconfig */,
+				3748B79FB01BF4B25ED9E1F98A264BEF /* TextFieldEffects-dummy.m */,
+				2D4D4D7554A1C0E57916A41654CE4C39 /* TextFieldEffects-prefix.pch */,
+				3E8613F397B285B7E2265E626876A328 /* TextFieldEffects-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		449E3662E7E73B0BB71E869D3E8385E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5CD878E71185A3214ADBB6086082698 /* BmobSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69D4A5326EA8FE099836DD0B926DC5A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E756294DF34D2AD2B06250C626EABE2 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				BB27B09F73FCE79F921C05B1216D7A5B /* Pods */,
+				1278B7A431BA545055F84111E63317BD /* Products */,
+				DEF395F1E9D023DAE51C70D0FC2A7060 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EE2A2CA117F6C4E584132D5CA27B806 /* BmobSDK */ = {
+			isa = PBXGroup;
+			children = (
+				449E3662E7E73B0BB71E869D3E8385E1 /* Frameworks */,
+			);
+			name = BmobSDK;
+			path = BmobSDK;
+			sourceTree = "<group>";
+		};
+		94382ABE128B7098805C11872B71E6EC /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				E22D0F5DAF7DF7CABFBE5CF9D77939C0 /* AkiraTextField.swift */,
+				249C263F8EA36CA2A9E9637025F0F1DF /* HoshiTextField.swift */,
+				D58615E272CFEE63D0C00DB43D8E3739 /* IsaoTextField.swift */,
+				8C25108D523F253AC2A079C57FF2E1F7 /* JiroTextField.swift */,
+				AA747089B54CD1E64E8A9DE79ED53402 /* KaedeTextField.swift */,
+				FA9CC4BF2A487106FA0C16DE916F04EE /* MadokaTextField.swift */,
+				682416DB5428F9488FC130F686E45CED /* MinoruTextField.swift */,
+				D51F79A9C666607B151EBC3A74ACEAB4 /* TextFieldEffects.swift */,
+				6AB46C262A421DEDC3D18A2B547DC935 /* YokoTextField.swift */,
+				7B8E392290F2674709FBED9ACB21A0B1 /* YoshikoTextField.swift */,
+				3B43B3DE58D12470711D3A69091FC286 /* Support Files */,
+			);
+			name = TextFieldEffects;
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		9FD1A0C90693BC83EDEED5D5237701D1 /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				66C8A3B6D93D1D7FAC03E980D55A32C0 /* WechatAuthSDK.h */,
+				87EE5BFC3D85D768BDEEA115FAFA21FA /* WXApi.h */,
+				726151EEAD2273495AF9527C21DB747A /* WXApiObject.h */,
+				69D4A5326EA8FE099836DD0B926DC5A7 /* Frameworks */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		BB27B09F73FCE79F921C05B1216D7A5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EE2A2CA117F6C4E584132D5CA27B806 /* BmobSDK */,
+				02DEE366420073C5391BF4CC90584CC5 /* Hero */,
+				94382ABE128B7098805C11872B71E6EC /* TextFieldEffects */,
+				9FD1A0C90693BC83EDEED5D5237701D1 /* WechatOpenSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DEF395F1E9D023DAE51C70D0FC2A7060 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E161D2AC4271932889F1DBAC1D98FEC4 /* Pods-RestaurantManagement */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E161D2AC4271932889F1DBAC1D98FEC4 /* Pods-RestaurantManagement */ = {
+			isa = PBXGroup;
+			children = (
+				4CC541198690E3451F13CF435D49C408 /* Info.plist */,
+				EF00D2BB1892F676734CDC329F71E8EC /* Pods-RestaurantManagement.modulemap */,
+				3389DDD51DE9C791259DAB2A6BF39E08 /* Pods-RestaurantManagement-acknowledgements.markdown */,
+				6E21A78F055DA634FAE86613EE4F65AB /* Pods-RestaurantManagement-acknowledgements.plist */,
+				C130B61250CF8DB0FD7CC5180B633A31 /* Pods-RestaurantManagement-dummy.m */,
+				9474B0E69EF9749D925690EE87AF81D0 /* Pods-RestaurantManagement-frameworks.sh */,
+				7577629A9A0F4759329D9340226F0AAA /* Pods-RestaurantManagement-resources.sh */,
+				D8FC5B84E552BE5415142DAE919EFCFB /* Pods-RestaurantManagement-umbrella.h */,
+				CA758354522EAF4F33CB1281F20605C3 /* Pods-RestaurantManagement.debug.xcconfig */,
+				31BD96C522636DD4D49B02CAC045E24A /* Pods-RestaurantManagement.release.xcconfig */,
+			);
+			name = "Pods-RestaurantManagement";
+			path = "Target Support Files/Pods-RestaurantManagement";
+			sourceTree = "<group>";
+		};
+		FB10A5FD77D46407CB83685DE88EB96B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDCCEDAEDC3B33CF4E52DC1AB0FEB0AD /* Hero.modulemap */,
+				B35FF436A321C237085FE2C8BF146261 /* Hero.xcconfig */,
+				4CE437804CBDF72CEEB260462170D74F /* Hero-dummy.m */,
+				8174682C4F3D66195168E9B9AB143453 /* Hero-prefix.pch */,
+				A2C63B5866B770388C94BE47AAAF3F11 /* Hero-umbrella.h */,
+				44DD0A7A6E24D702188DEFFA455F2A5D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Hero";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		25B7816631020C377086BBAC807A77A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17230F239F2AA09718192F46E3B1B64 /* Pods-RestaurantManagement-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82779E8A95ED2A7409BBDD49426A6DCB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F977B467C1C4EBDE66733417643F1DD /* Hero-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD314D2C995A91E8642159FB7712184 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A202718066F842A1A863541EBDA05B /* TextFieldEffects-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A3E211676B243619B026D147D272253 /* Hero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6DED4535F841BD78B49E046B4C3A36B /* Build configuration list for PBXNativeTarget "Hero" */;
+			buildPhases = (
+				42F5D5F556CC9AB8C1D3798AF8424A5A /* Sources */,
+				21E6C68BEB179EF063E58DBBD27207D8 /* Frameworks */,
+				82779E8A95ED2A7409BBDD49426A6DCB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hero;
+			productName = Hero;
+			productReference = 476904117845F23ADA23ED6765E6580B /* Hero.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8B6088912112FCBDF61914663CAD317 /* Pods-RestaurantManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8E3F2DB08A9C74A6A1EB84865F171D /* Build configuration list for PBXNativeTarget "Pods-RestaurantManagement" */;
+			buildPhases = (
+				07572F44CD0364DE8E85F434A9A3D5A8 /* Sources */,
+				55241DDF965ED091C83B785D897035BB /* Frameworks */,
+				25B7816631020C377086BBAC807A77A9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1A90EF92E660DE02EEBF06C3C6B214F /* PBXTargetDependency */,
+				377A11F1E2F686D433F1511EF3D39E37 /* PBXTargetDependency */,
+			);
+			name = "Pods-RestaurantManagement";
+			productName = "Pods-RestaurantManagement";
+			productReference = A4B74BD23058177A29602FB869FF6805 /* Pods_RestaurantManagement.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD2714EE4B3A69DD5A3BF820E824AE0D /* TextFieldEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D781BFE80576045E52FE6EAAEFF37F /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildPhases = (
+				5D8DA7994AD41A9E63FFCC7A2B186F74 /* Sources */,
+				FA42897B331AB5975F1C96269851D8A8 /* Frameworks */,
+				DDD314D2C995A91E8642159FB7712184 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldEffects;
+			productName = TextFieldEffects;
+			productReference = 70ED8D9F741F1561ABC9298FFC65968E /* TextFieldEffects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1278B7A431BA545055F84111E63317BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A3E211676B243619B026D147D272253 /* Hero */,
+				A8B6088912112FCBDF61914663CAD317 /* Pods-RestaurantManagement */,
+				BD2714EE4B3A69DD5A3BF820E824AE0D /* TextFieldEffects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07572F44CD0364DE8E85F434A9A3D5A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D369172D05A259E06744506EF9BA138 /* Pods-RestaurantManagement-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F5D5F556CC9AB8C1D3798AF8424A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4871AB82D1BA4619362CECE2C157E239 /* Array+HeroModifier.swift in Sources */,
+				D48039A4AAAD63B84E8041F816AAE5CC /* BasePreprocessor.swift in Sources */,
+				CCACA9026494E6D39D374A4BD303F69C /* CALayer+Hero.swift in Sources */,
+				1EFCE8E2E39D6FF98A82A412DCDA22F4 /* CAMediaTimingFunction+Hero.swift in Sources */,
+				6095DBFEB1AF8CE765FA645A05459C2B /* CascadePreprocessor.swift in Sources */,
+				E91E80F3AA36C095A59C59A446271BF0 /* CG+Hero.swift in Sources */,
+				398917958AEE73A2ABA9DE141F4468CE /* DefaultAnimationPreprocessor.swift in Sources */,
+				A57C83E4371C1D6439BC82CDBEE32E08 /* DispatchQueue+Hero.swift in Sources */,
+				64B4D37F446B67C4A0D546ABF01ECDC6 /* DurationPreprocessor.swift in Sources */,
+				AC78190959872C81167ACC8F0B02BED9 /* Hero-dummy.m in Sources */,
+				DE7E529EF406ECBC3185D907151CDE78 /* Hero.swift in Sources */,
+				84B25B1A071858745816A95418F9F77A /* HeroAnimatorViewContext.swift in Sources */,
+				30E0982814D1F0971FA52AAE141325B8 /* HeroBaseController.swift in Sources */,
+				ABE0F6116DF5C33A310E215DE9AEE769 /* HeroContext.swift in Sources */,
+				BB7E6CA50EF56EF89CECA4DE5FEF66B9 /* HeroCoreAnimationViewContext.swift in Sources */,
+				2F44F37D2F6170E3B3186555CF82F575 /* HeroDebugPlugin.swift in Sources */,
+				BEB47A3CAB4F7D3C8EDA608599417596 /* HeroDebugView.swift in Sources */,
+				05F0808ED771EDC8628F839F16CB7EC8 /* HeroDefaultAnimator.swift in Sources */,
+				0054224BA8A23E8413AE5452B7C7D9C4 /* HeroIndependentController.swift in Sources */,
+				E57BB5C5A234EE3344BB5AAECFC7CC7A /* HeroModifier+HeroStringConvertible.swift in Sources */,
+				B62A16E73ADAFD9229C560E7C46ADB8E /* HeroModifier.swift in Sources */,
+				69C8F9CB4C695672395946F7C8A23E24 /* HeroPlugin.swift in Sources */,
+				1D030FD35221838E1BC264DBD51B3A93 /* HeroStringConvertible.swift in Sources */,
+				A72A258B0E285A00B063B0AF42E488A5 /* HeroTargetState.swift in Sources */,
+				CE4501723EC8667ADB9698705CC0AA04 /* HeroTypes.swift in Sources */,
+				355839E3459355665718D6358BA078A6 /* HeroViewPropertyViewContext.swift in Sources */,
+				29E1C79CB521E7299EFF904E327451A8 /* IgnoreSubviewModifiersPreprocessor.swift in Sources */,
+				00CF7D513DF064760BF24C6A88E3E855 /* Lexer.swift in Sources */,
+				7DDE6E306CAB5E388629F6C6A561ECBA /* MatchPreprocessor.swift in Sources */,
+				0DA21E732596100C88761DA40C290796 /* Nodes.swift in Sources */,
+				A271792E9BD1BF7C0F7FC526D33C68C3 /* Parser.swift in Sources */,
+				731BDB378A5E0759C89BACA382B6412B /* Regex.swift in Sources */,
+				DE4FD12FD11924E71640A08AF3AFA2E4 /* SourcePreprocessor.swift in Sources */,
+				67BCB163E387C2E9288BC15CA3E4ACAF /* UIKit+Hero.swift in Sources */,
+				2808DEA4E83D337D6A0F0D3EE9AFC8CB /* UIView+Hero.swift in Sources */,
+				6B76015FB5A7E8450026BC11402C93E9 /* UIViewController+Hero.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8DA7994AD41A9E63FFCC7A2B186F74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2C16D8CD7FDFD2B50A2D243631E8CD /* AkiraTextField.swift in Sources */,
+				17E0300A25C026BDF01E16FB8E9C04A8 /* HoshiTextField.swift in Sources */,
+				12583DFE303F96CFC99E6DF4FC386E5E /* IsaoTextField.swift in Sources */,
+				0059FD67AB46E42A7DF3807546ACADD2 /* JiroTextField.swift in Sources */,
+				E005E53A4597314EC0BFA26CDA27BDDE /* KaedeTextField.swift in Sources */,
+				FF0AC37423265BBC26BDEB1E077661DB /* MadokaTextField.swift in Sources */,
+				3659E323A25B48F72C55E871D022D45C /* MinoruTextField.swift in Sources */,
+				4079B7B08D8981B768A9F3C7EAB1B043 /* TextFieldEffects-dummy.m in Sources */,
+				E96D0B2A18F932EA26F8E8C6A6CB83F1 /* TextFieldEffects.swift in Sources */,
+				9022B8C9907A24665A74A0E51D1F573E /* YokoTextField.swift in Sources */,
+				92D9D61944D413984C260AC53CFB299B /* YoshikoTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		377A11F1E2F686D433F1511EF3D39E37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextFieldEffects;
+			target = BD2714EE4B3A69DD5A3BF820E824AE0D /* TextFieldEffects */;
+			targetProxy = EC7AC7197048969ACE16AD3E466F5733 /* PBXContainerItemProxy */;
+		};
+		E1A90EF92E660DE02EEBF06C3C6B214F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hero;
+			target = 4A3E211676B243619B026D147D272253 /* Hero */;
+			targetProxy = 232C633D1276889ECA9978052733209D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E1798DFFDCCABFDDEDE6F47DBAC18F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B35FF436A321C237085FE2C8BF146261 /* Hero.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hero/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
+				PRODUCT_NAME = Hero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		329F05231CC88271584C6B7BBDD708FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B35FF436A321C237085FE2C8BF146261 /* Hero.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hero/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
+				PRODUCT_NAME = Hero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59D390A48B6FDF684E70B415F0748D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31BD96C522636DD4D49B02CAC045E24A /* Pods-RestaurantManagement.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RestaurantManagement/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RestaurantManagement/Pods-RestaurantManagement.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RestaurantManagement;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		621AB785940626574F07364CB14760E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7FDE0C4F662BB8339E549BB274B34C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53AECD89A30E477AE328F9A9F0B473F8 /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B553EA25F64062FE7BEEACECBE9CC659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA758354522EAF4F33CB1281F20605C3 /* Pods-RestaurantManagement.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RestaurantManagement/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RestaurantManagement/Pods-RestaurantManagement.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RestaurantManagement;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B57C09D404C607DDE283C5C44183B2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F901A7AF08E2876199A5925B860BB6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53AECD89A30E477AE328F9A9F0B473F8 /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16D781BFE80576045E52FE6EAAEFF37F /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FDE0C4F662BB8339E549BB274B34C84 /* Debug */,
+				F901A7AF08E2876199A5925B860BB6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57C09D404C607DDE283C5C44183B2A1 /* Debug */,
+				621AB785940626574F07364CB14760E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8E3F2DB08A9C74A6A1EB84865F171D /* Build configuration list for PBXNativeTarget "Pods-RestaurantManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B553EA25F64062FE7BEEACECBE9CC659 /* Debug */,
+				59D390A48B6FDF684E70B415F0748D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6DED4535F841BD78B49E046B4C3A36B /* Build configuration list for PBXNativeTarget "Hero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329F05231CC88271584C6B7BBDD708FF /* Debug */,
+				2E1798DFFDCCABFDDEDE6F47DBAC18F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
